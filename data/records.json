@@ -1,0 +1,42 @@
+[
+  {
+    "student": { "id": "s1001", "firstName": "Alex", "lastName": "Kim", "email": "alex@example.edu", "phone": "555-0101", "address": "1 Main St" },
+    "college": "ENGINEERING_AND_COMPUTING", "termBegin": { "season": "FALL", "year": 2025 }, "classStatus": "JUNIOR",
+    "gradAssistant": false, "international": false, "internationalStatus": "NONE", "resident": true,
+    "activeDuty": false, "veteran": false, "freeTuition": false, "scholarship": "MERIT", "studyAbroad": "NONE",
+    "nationalStudentExchange": false, "outsideInsurance": false,
+    "courses": [
+      { "id": "CSCE240", "name": "Advanced Programming", "credits": 3, "online": false },
+      { "id": "CSCE350", "name": "Data Structures and Algorithms", "credits": 3, "online": false },
+      { "id": "MATH374", "name": "Discrete Structures", "credits": 3, "online": false },
+      { "id": "ENGL462", "name": "Technical Writing", "credits": 3, "online": true },
+      { "id": "STAT509", "name": "Statistics for Engineers", "credits": 3, "online": false }
+    ],
+    "transactions": [ { "type": "PAYMENT", "date": "2026-08-15", "amount": 1000.00, "note": "Deposit" } ]
+  },
+  {
+    "student": { "id": "s1002", "firstName": "Bina", "lastName": "Shah", "email": "bina@example.edu", "phone": "555-0102", "address": "2 Oak Ave" },
+    "college": "ENGINEERING_AND_COMPUTING", "termBegin": { "season": "FALL", "year": 2026 }, "classStatus": "MASTERS",
+    "gradAssistant": true, "international": true, "internationalStatus": "SPONSORED", "resident": false,
+    "activeDuty": false, "veteran": false, "freeTuition": false, "scholarship": "NONE", "studyAbroad": "NONE",
+    "nationalStudentExchange": false, "outsideInsurance": true,
+    "courses": [
+      { "id": "CSCE740", "name": "Software Engineering", "credits": 3, "online": false },
+      { "id": "CSCE750", "name": "Analysis of Algorithms", "credits": 3, "online": false },
+      { "id": "CSCE822", "name": "Data Mining", "credits": 3, "online": false }
+    ],
+    "transactions": []
+  },
+  {
+    "student": { "id": "s2001", "firstName": "Chris", "lastName": "Lopez", "email": "chris@example.edu", "phone": "555-0103", "address": "3 Pine Rd" },
+    "college": "ARTS_AND_SCIENCES", "termBegin": { "season": "SPRING", "year": 2026 }, "classStatus": "FRESHMAN",
+    "gradAssistant": false, "international": false, "internationalStatus": "NONE", "resident": false,
+    "activeDuty": false, "veteran": true, "freeTuition": false, "scholarship": "NONE", "studyAbroad": "REGULAR",
+    "nationalStudentExchange": false, "outsideInsurance": false,
+    "courses": [
+      { "id": "HIST101", "name": "World History", "credits": 3, "online": true },
+      { "id": "BIOL101", "name": "Biological Principles", "credits": 4, "online": false }
+    ],
+    "transactions": []
+  }
+]

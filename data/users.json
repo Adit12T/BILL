@@ -1,0 +1,7 @@
+[
+  { "id": "admin-eng", "firstName": "Morgan", "lastName": "Reyes", "role": "ADMIN", "college": "ENGINEERING_AND_COMPUTING" },
+  { "id": "admin-art", "firstName": "Sam", "lastName": "Okafor", "role": "ADMIN", "college": "ARTS_AND_SCIENCES" },
+  { "id": "s1001", "firstName": "Alex", "lastName": "Kim", "role": "STUDENT", "college": "ENGINEERING_AND_COMPUTING" },
+  { "id": "s1002", "firstName": "Bina", "lastName": "Shah", "role": "STUDENT", "college": "ENGINEERING_AND_COMPUTING" },
+  { "id": "s2001", "firstName": "Chris", "lastName": "Lopez", "role": "STUDENT", "college": "ARTS_AND_SCIENCES" }
+]
